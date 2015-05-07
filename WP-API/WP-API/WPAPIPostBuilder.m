@@ -43,7 +43,9 @@ static NSString *kTerm = @"terms";
 
 @implementation WPAPIPostBuilder
 
-- (NSArray *)postsFromJSON: (NSString *)objectNotation error: (NSError **)error {
+- (NSArray *)postsFromJSON: (NSString *)objectNotation
+             customBuilder:(id (^)(NSDictionary *dict))customBuilderClock
+                     error: (NSError **)error {
     
     NSMutableArray *mutableArr = [[NSMutableArray alloc] init];
 
@@ -64,6 +66,14 @@ static NSString *kTerm = @"terms";
                               invalidJSONErrorCode:WPAPIPostBuilderInvalidJSONError
                               missingDataErrorCode:WPAPIPostBuilderMissingDataError
                                        errorDomain:WPAPIPostBuilderErrorDomain];
+            
+            if([el isKindOfClass:[WPAPIPost class]]) {
+                WPAPIPost *post = (WPAPIPost *)el;
+                
+                if(customBuilderClock) {
+                    post.custom = customBuilderClock(dict);
+                }
+            }
             
             if(!error && el) {
                 [mutableArr addObject:el];

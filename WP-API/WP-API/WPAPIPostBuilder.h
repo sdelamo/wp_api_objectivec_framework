@@ -30,6 +30,6 @@ enum {
  * @return An array of smart lists objects, or nil (with error set) if objectNotation cannot be parsed.
  * @see WPAPIPost
  */
-- (NSArray *)postsFromJSON:(NSString *)objectNotation error: (NSError **)error;
+- (NSArray *)postsFromJSON:(NSString *)objectNotation customBuilder:(id (^)(NSDictionary *dict))customBuilderClock error: (NSError **)error;
 
 @end

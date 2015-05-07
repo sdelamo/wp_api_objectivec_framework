@@ -32,4 +32,6 @@
 @property (nonatomic, copy)NSString *pingStatus;
 @property (nonatomic)BOOL sticky;
 
+@property (nonatomic,strong)id custom;
+
 @end

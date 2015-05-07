@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D509D7A41AFB2B1100D214E6 /* WPAPIACFAGalleryImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D509D7A21AFB2B1100D214E6 /* WPAPIACFAGalleryImage.h */; };
+		D509D7A51AFB2B1100D214E6 /* WPAPIACFAGalleryImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D509D7A31AFB2B1100D214E6 /* WPAPIACFAGalleryImage.m */; };
+		D509D7A81AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.h in Headers */ = {isa = PBXBuildFile; fileRef = D509D7A61AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.h */; };
+		D509D7A91AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.m in Sources */ = {isa = PBXBuildFile; fileRef = D509D7A71AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.m */; };
 		D570F8251AF9D2170005AB27 /* WP_API.h in Headers */ = {isa = PBXBuildFile; fileRef = D570F8241AF9D2170005AB27 /* WP_API.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D570F82B1AF9D2170005AB27 /* WP_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D570F81F1AF9D2170005AB27 /* WP_API.framework */; };
 		D570F8321AF9D2170005AB27 /* WP_APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D570F8311AF9D2170005AB27 /* WP_APITests.m */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D509D7A21AFB2B1100D214E6 /* WPAPIACFAGalleryImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAPIACFAGalleryImage.h; sourceTree = "<group>"; };
+		D509D7A31AFB2B1100D214E6 /* WPAPIACFAGalleryImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIACFAGalleryImage.m; sourceTree = "<group>"; };
+		D509D7A61AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAPIACFAGalleryImageSizes.h; sourceTree = "<group>"; };
+		D509D7A71AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIACFAGalleryImageSizes.m; sourceTree = "<group>"; };
 		D570F81F1AF9D2170005AB27 /* WP_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WP_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D570F8231AF9D2170005AB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D570F8241AF9D2170005AB27 /* WP_API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WP_API.h; sourceTree = "<group>"; };
@@ -117,6 +125,10 @@
 				D5C1027A1AF9DA5D00D2B657 /* WPAPIMeta.m */,
 				D5C1027D1AF9DA7500D2B657 /* WPAPILinks.h */,
 				D5C1027E1AF9DA7500D2B657 /* WPAPILinks.m */,
+				D509D7A21AFB2B1100D214E6 /* WPAPIACFAGalleryImage.h */,
+				D509D7A31AFB2B1100D214E6 /* WPAPIACFAGalleryImage.m */,
+				D509D7A61AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.h */,
+				D509D7A71AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.m */,
 			);
 			path = "WP-API";
 			sourceTree = "<group>";
@@ -161,7 +173,9 @@
 				D5C1027F1AF9DA7500D2B657 /* WPAPILinks.h in Headers */,
 				D570F8251AF9D2170005AB27 /* WP_API.h in Headers */,
 				D5C102671AF9D7A000D2B657 /* WPAPIElementBuilder.h in Headers */,
+				D509D7A41AFB2B1100D214E6 /* WPAPIACFAGalleryImage.h in Headers */,
 				D5C102771AF9D91A00D2B657 /* WPAPIAuthorBuilder.h in Headers */,
+				D509D7A81AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +281,9 @@
 				D5C102701AF9D87100D2B657 /* WPAPIPost.m in Sources */,
 				D5C102681AF9D7A000D2B657 /* WPAPIElementBuilder.m in Sources */,
 				D5C1026C1AF9D83300D2B657 /* WPAPIPostBuilder.m in Sources */,
+				D509D7A91AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.m in Sources */,
 				D5C102781AF9D91A00D2B657 /* WPAPIAuthorBuilder.m in Sources */,
+				D509D7A51AFB2B1100D214E6 /* WPAPIACFAGalleryImage.m in Sources */,
 				D5C102801AF9DA7500D2B657 /* WPAPILinks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
