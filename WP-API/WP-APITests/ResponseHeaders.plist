@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>X-WP-Total</key>
+		<string>88</string>
+		<key>X-WP-TotalPages</key>
+		<string>9</string>
+		<key>Link</key>
+		<string>&lt;/wp-json/posts?type=alojamiento&amp;page=2&gt;; rel=&quot;next&quot;, &lt;http://appfadeta.com/wp-json/posts/1738&gt;; rel=&quot;item&quot;; title=&quot;PARADOR 360&quot;, &lt;http://appfadeta.com/wp-json/posts/1470&gt;; rel=&quot;item&quot;; title=&quot;Posada Los Cuatro CaÃ±os&quot;, &lt;http://appfadeta.com/wp-json/posts/1461&gt;; rel=&quot;item&quot;; title=&quot;PÃ¡jaro Bobo&quot;, &lt;http://appfadeta.com/wp-json/posts/1458&gt;; rel=&quot;item&quot;; title=&quot;Molingordo&quot;, &lt;http://appfadeta.com/wp-json/posts/1453&gt;; rel=&quot;item&quot;; title=&quot;LAS RANAS CASA RURAL&quot;, &lt;http://appfadeta.com/wp-json/posts/1450&gt;; rel=&quot;item&quot;; title=&quot;Las Hondonadas&quot;, &lt;http://appfadeta.com/wp-json/posts/1445&gt;; rel=&quot;item&quot;; title=&quot;Las Herraduras&quot;, &lt;http://appfadeta.com/wp-json/posts/1440&gt;; rel=&quot;item&quot;; title=&quot;La Ventana de Tejera Negra&quot;, &lt;http://appfadeta.com/wp-json/posts/1430&gt;; rel=&quot;item&quot;; title=&quot;La Trucha Feliz&quot;, &lt;http://appfadeta.com/wp-json/posts/1424&gt;; rel=&quot;item&quot;; title=&quot;La TravesaÃ±a Casa Rural&quot;</string>
+	</dict>
+	<dict>
+		<key>X-WP-Total</key>
+		<string>88</string>
+		<key>X-WP-TotalPages</key>
+		<string>9</string>
+		<key>Link</key>
+		<string>&lt;/wp-json/posts?type=alojamiento&amp;page=1&gt;; rel=&quot;prev&quot;, &lt;/wp-json/posts?type=alojamiento&amp;page=3&gt;; rel=&quot;next&quot;, &lt;http://appfadeta.com/wp-json/posts/1420&gt;; rel=&quot;item&quot;; title=&quot;La Posada de la Sierra&quot;, &lt;http://appfadeta.com/wp-json/posts/1418&gt;; rel=&quot;item&quot;; title=&quot;La Pizarra Negra&quot;, &lt;http://appfadeta.com/wp-json/posts/1414&gt;; rel=&quot;item&quot;; title=&quot;La Piedra del Molino&quot;, &lt;http://appfadeta.com/wp-json/posts/1409&gt;; rel=&quot;item&quot;; title=&quot;La Melera&quot;, &lt;http://appfadeta.com/wp-json/posts/1404&gt;; rel=&quot;item&quot;; title=&quot;La Gesta&quot;, &lt;http://appfadeta.com/wp-json/posts/1397&gt;; rel=&quot;item&quot;; title=&quot;La Era de la TÃ­a Donata&quot;, &lt;http://appfadeta.com/wp-json/posts/1393&gt;; rel=&quot;item&quot;; title=&quot;La Casona de Tamaya&quot;, &lt;http://appfadeta.com/wp-json/posts/1369&gt;; rel=&quot;item&quot;; title=&quot;La Casona de LucÃ­a&quot;, &lt;http://appfadeta.com/wp-json/posts/1351&gt;; rel=&quot;item&quot;; title=&quot;La Casa de Gamo&quot;, &lt;http://appfadeta.com/wp-json/posts/1345&gt;; rel=&quot;item&quot;; title=&quot;La Carbonera&quot;</string>
+	</dict>
+	<dict>
+		<key>X-WP-Total</key>
+		<string>88</string>
+		<key>X-WP-TotalPages</key>
+		<string>9</string>
+		<key>Link</key>
+		<string>&lt;/wp-json/posts?type=alojamiento&amp;page=2&gt;; rel=&quot;prev&quot;, &lt;/wp-json/posts?type=alojamiento&amp;page=4&gt;; rel=&quot;next&quot;, &lt;http://appfadeta.com/wp-json/posts/1340&gt;; rel=&quot;item&quot;; title=&quot;La Bodega del Abuelo&quot;, &lt;http://appfadeta.com/wp-json/posts/1331&gt;; rel=&quot;item&quot;; title=&quot;La AlquerÃ­a de Valverde&quot;, &lt;http://appfadeta.com/wp-json/posts/1325&gt;; rel=&quot;item&quot;; title=&quot;La AlegrÃ­a de la Alcarria&quot;, &lt;http://appfadeta.com/wp-json/posts/1312&gt;; rel=&quot;item&quot;; title=&quot;Hotel Rural Los Anades&quot;, &lt;http://appfadeta.com/wp-json/posts/1305&gt;; rel=&quot;item&quot;; title=&quot;Hotel Restaurante El Doncel&quot;, &lt;http://appfadeta.com/wp-json/posts/1300&gt;; rel=&quot;item&quot;; title=&quot;Hotel Cardamomo SigÃ¼enza&quot;, &lt;http://appfadeta.com/wp-json/posts/1298&gt;; rel=&quot;item&quot;; title=&quot;Hostal Rural Valverde&quot;, &lt;http://appfadeta.com/wp-json/posts/1295&gt;; rel=&quot;item&quot;; title=&quot;Hostal Rural Ballestero&quot;, &lt;http://appfadeta.com/wp-json/posts/1290&gt;; rel=&quot;item&quot;; title=&quot;Hostal Posta Real&quot;, &lt;http://appfadeta.com/wp-json/posts/1276&gt;; rel=&quot;item&quot;; title=&quot;Hostal DoÃ±a Blanca&quot;</string>
+	</dict>
+	<dict>
+		<key>X-WP-Total</key>
+		<string>88</string>
+		<key>X-WP-TotalPages</key>
+		<string>9</string>
+		<key>Link</key>
+		<string>&lt;/wp-json/posts?type=alojamiento&amp;page=3&gt;; rel=&quot;prev&quot;, &lt;/wp-json/posts?type=alojamiento&amp;page=5&gt;; rel=&quot;next&quot;, &lt;http://appfadeta.com/wp-json/posts/1271&gt;; rel=&quot;item&quot;; title=&quot;Hostal Alto Rey&quot;, &lt;http://appfadeta.com/wp-json/posts/1267&gt;; rel=&quot;item&quot;; title=&quot;El SueÃ±o de los Gatos&quot;, &lt;http://appfadeta.com/wp-json/posts/1257&gt;; rel=&quot;item&quot;; title=&quot;El RincÃ³n de Monasterio &amp; SPA&quot;, &lt;http://appfadeta.com/wp-json/posts/1255&gt;; rel=&quot;item&quot;; title=&quot;El Refugio del Alto Rey&quot;, &lt;http://appfadeta.com/wp-json/posts/1248&gt;; rel=&quot;item&quot;; title=&quot;El Palomar&quot;, &lt;http://appfadeta.com/wp-json/posts/1235&gt;; rel=&quot;item&quot;; title=&quot;El Molino del Serio&quot;, &lt;http://appfadeta.com/wp-json/posts/1226&gt;; rel=&quot;item&quot;; title=&quot;El Molino de Castilpelayo&quot;, &lt;http://appfadeta.com/wp-json/posts/1219&gt;; rel=&quot;item&quot;; title=&quot;El Colvillo ( Camping, apartamentos rurales y albergue )&quot;, &lt;http://appfadeta.com/wp-json/posts/1214&gt;; rel=&quot;item&quot;; title=&quot;El CÃ¡rabo&quot;, &lt;http://appfadeta.com/wp-json/posts/1210&gt;; rel=&quot;item&quot;; title=&quot;El BalcÃ³n de ArbancÃ³n&quot;</string>
+	</dict>
+	<dict>
+		<key>X-WP-Total</key>
+		<string>88</string>
+		<key>X-WP-TotalPages</key>
+		<string>9</string>
+		<key>Link</key>
+		<string>&lt;/wp-json/posts?type=alojamiento&amp;page=4&gt;; rel=&quot;prev&quot;, &lt;/wp-json/posts?type=alojamiento&amp;page=6&gt;; rel=&quot;next&quot;, &lt;http://appfadeta.com/wp-json/posts/1207&gt;; rel=&quot;item&quot;; title=&quot;El Arrabal de SigÃ¼enza&quot;, &lt;http://appfadeta.com/wp-json/posts/1190&gt;; rel=&quot;item&quot;; title=&quot;Castillo de la Riba&quot;, &lt;http://appfadeta.com/wp-json/posts/1182&gt;; rel=&quot;item&quot;; title=&quot;Castillo de Diempures&quot;, &lt;http://appfadeta.com/wp-json/posts/1173&gt;; rel=&quot;item&quot;; title=&quot;Casas Rurales Las Dos Des&quot;, &lt;http://appfadeta.com/wp-json/posts/1161&gt;; rel=&quot;item&quot;; title=&quot;Casa Sabory&quot;, &lt;http://appfadeta.com/wp-json/posts/1154&gt;; rel=&quot;item&quot;; title=&quot;Casa rural y spa El huerto del Abuelo&quot;, &lt;http://appfadeta.com/wp-json/posts/1148&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural y Restaurante el Nido de Valverde&quot;, &lt;http://appfadeta.com/wp-json/posts/1146&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Viana&quot;, &lt;http://appfadeta.com/wp-json/posts/1132&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Valdicimbrio&quot;, &lt;http://appfadeta.com/wp-json/posts/1130&gt;; rel=&quot;item&quot;; title=&quot;Casa rural TÃ­a Raimunda&quot;</string>
+	</dict>
+	<dict>
+		<key>X-WP-Total</key>
+		<string>88</string>
+		<key>X-WP-TotalPages</key>
+		<string>9</string>
+		<key>Link</key>
+		<string>&lt;/wp-json/posts?type=alojamiento&amp;page=5&gt;; rel=&quot;prev&quot;, &lt;/wp-json/posts?type=alojamiento&amp;page=7&gt;; rel=&quot;next&quot;, &lt;http://appfadeta.com/wp-json/posts/1123&gt;; rel=&quot;item&quot;; title=&quot;Casa rural SigÃ¼enzaDOMUS&quot;, &lt;http://appfadeta.com/wp-json/posts/1120&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural SerranÃ­a del Tajo&quot;, &lt;http://appfadeta.com/wp-json/posts/1115&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Natur Cuatro Estaciones&quot;, &lt;http://appfadeta.com/wp-json/posts/1113&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Milagros&quot;, &lt;http://appfadeta.com/wp-json/posts/1101&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Los Doce Robles&quot;, &lt;http://appfadeta.com/wp-json/posts/1093&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Los Chorrones&quot;, &lt;http://appfadeta.com/wp-json/posts/1088&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Las Tainas de Carabias SigÃ¼enza&quot;, &lt;http://appfadeta.com/wp-json/posts/1085&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural las PeonÃ­as&quot;, &lt;http://appfadeta.com/wp-json/posts/1081&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Las Albertas&quot;, &lt;http://appfadeta.com/wp-json/posts/1075&gt;; rel=&quot;item&quot;; title=&quot;Casa rural La Vereda de Puebla&quot;</string>
+	</dict>
+	<dict>
+		<key>X-WP-Total</key>
+		<string>88</string>
+		<key>X-WP-TotalPages</key>
+		<string>9</string>
+		<key>Link</key>
+		<string>&lt;/wp-json/posts?type=alojamiento&amp;page=6&gt;; rel=&quot;prev&quot;, &lt;/wp-json/posts?type=alojamiento&amp;page=8&gt;; rel=&quot;next&quot;, &lt;http://appfadeta.com/wp-json/posts/1070&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural La Pinocha&quot;, &lt;http://appfadeta.com/wp-json/posts/1059&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural La Perla &lt;br/&gt;Alquiler por habitaciÃ³n Bed&amp;Breakfast&quot;, &lt;http://appfadeta.com/wp-json/posts/1035&gt;; rel=&quot;item&quot;; title=&quot;Casa rural La Hiruela&quot;, &lt;http://appfadeta.com/wp-json/posts/1031&gt;; rel=&quot;item&quot;; title=&quot;Casa rural La Galiana&quot;, &lt;http://appfadeta.com/wp-json/posts/1025&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural La Casa del Sol&quot;, &lt;http://appfadeta.com/wp-json/posts/1018&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Fonda Molinero&quot;, &lt;http://appfadeta.com/wp-json/posts/1015&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural El Roble Hueco&quot;, &lt;http://appfadeta.com/wp-json/posts/1002&gt;; rel=&quot;item&quot;; title=&quot;Casa rural El Abejaruco&quot;, &lt;http://appfadeta.com/wp-json/posts/997&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural del Dulce SueÃ±o&quot;, &lt;http://appfadeta.com/wp-json/posts/994&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Cerezas y Miel&quot;</string>
+	</dict>
+	<dict>
+		<key>X-WP-Total</key>
+		<string>88</string>
+		<key>X-WP-TotalPages</key>
+		<string>9</string>
+		<key>Link</key>
+		<string>&lt;/wp-json/posts?type=alojamiento&amp;page=7&gt;; rel=&quot;prev&quot;, &lt;/wp-json/posts?type=alojamiento&amp;page=9&gt;; rel=&quot;next&quot;, &lt;http://appfadeta.com/wp-json/posts/992&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural AlcarreÃ±a&quot;, &lt;http://appfadeta.com/wp-json/posts/971&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural Albarranco&quot;, &lt;http://appfadeta.com/wp-json/posts/967&gt;; rel=&quot;item&quot;; title=&quot;Casa rural al Viento del OcejÃ³n&quot;, &lt;http://appfadeta.com/wp-json/posts/964&gt;; rel=&quot;item&quot;; title=&quot;Casa Rural &quot;La DueÃ±a &quot; A - B&quot;, &lt;http://appfadeta.com/wp-json/posts/960&gt;; rel=&quot;item&quot;; title=&quot;Casa Las Trojes&quot;, &lt;http://appfadeta.com/wp-json/posts/955&gt;; rel=&quot;item&quot;; title=&quot;Casa del Castillo&quot;, &lt;http://appfadeta.com/wp-json/posts/953&gt;; rel=&quot;item&quot;; title=&quot;Casa de Xabier de Mahamud&quot;, &lt;http://appfadeta.com/wp-json/posts/949&gt;; rel=&quot;item&quot;; title=&quot;Casa Cayetana&quot;, &lt;http://appfadeta.com/wp-json/posts/944&gt;; rel=&quot;item&quot;; title=&quot;Casa Carabias I y II&quot;, &lt;http://appfadeta.com/wp-json/posts/934&gt;; rel=&quot;item&quot;; title=&quot;Casa CarabÃ¡s Cogolludo&quot;</string>
+	</dict>
+	<dict>
+		<key>X-WP-Total</key>
+		<string>88</string>
+		<key>X-WP-TotalPages</key>
+		<string>9</string>
+		<key>Link</key>
+		<string>&lt;/wp-json/posts?type=alojamiento&amp;page=8&gt;; rel=&quot;prev&quot;, &lt;http://appfadeta.com/wp-json/posts/931&gt;; rel=&quot;item&quot;; title=&quot;Apartamentos Rurales Los Parajes&quot;, &lt;http://appfadeta.com/wp-json/posts/923&gt;; rel=&quot;item&quot;; title=&quot;Apartamentos rurales Leonor de Aquitania&quot;, &lt;http://appfadeta.com/wp-json/posts/914&gt;; rel=&quot;item&quot;; title=&quot;Apartamentos Rurales Las Cabezadas&quot;, &lt;http://appfadeta.com/wp-json/posts/912&gt;; rel=&quot;item&quot;; title=&quot;Apartamentos Rurales Fielato&quot;, &lt;http://appfadeta.com/wp-json/posts/906&gt;; rel=&quot;item&quot;; title=&quot;Apartamentos Rurales El Molino&quot;, &lt;http://appfadeta.com/wp-json/posts/902&gt;; rel=&quot;item&quot;; title=&quot;Apartamentos Rurales Albarcas&quot;, &lt;http://appfadeta.com/wp-json/posts/896&gt;; rel=&quot;item&quot;; title=&quot;Apartamentos Alameda&quot;, &lt;http://appfadeta.com/wp-json/posts/526&gt;; rel=&quot;item&quot;; title=&quot;Albergue Rural El Molino&quot;</string>
+	</dict>
+</array>
+</plist>

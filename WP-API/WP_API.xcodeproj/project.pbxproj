@@ -11,6 +11,27 @@
 		D509D7A51AFB2B1100D214E6 /* WPAPIACFAGalleryImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D509D7A31AFB2B1100D214E6 /* WPAPIACFAGalleryImage.m */; };
 		D509D7A81AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.h in Headers */ = {isa = PBXBuildFile; fileRef = D509D7A61AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.h */; };
 		D509D7A91AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.m in Sources */ = {isa = PBXBuildFile; fileRef = D509D7A71AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.m */; };
+		D5610F4D1AFE5E0D009BB4EC /* WPAPIFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D5610F4B1AFE5E0D009BB4EC /* WPAPIFetcher.h */; };
+		D5610F4E1AFE5E0D009BB4EC /* WPAPIFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D5610F4C1AFE5E0D009BB4EC /* WPAPIFetcher.m */; };
+		D5610F501AFE5F2E009BB4EC /* WPAPIFetchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5610F4F1AFE5F2E009BB4EC /* WPAPIFetchTests.m */; };
+		D5610F531AFE650D009BB4EC /* WPAPIUseCase.h in Headers */ = {isa = PBXBuildFile; fileRef = D5610F511AFE650D009BB4EC /* WPAPIUseCase.h */; };
+		D5610F541AFE650D009BB4EC /* WPAPIUseCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D5610F521AFE650D009BB4EC /* WPAPIUseCase.m */; };
+		D5610F561AFE6A19009BB4EC /* WPAPIUseCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5610F551AFE6A19009BB4EC /* WPAPIUseCaseTests.m */; };
+		D5610F591AFE72C0009BB4EC /* WPAPIResponseLink.h in Headers */ = {isa = PBXBuildFile; fileRef = D5610F571AFE72C0009BB4EC /* WPAPIResponseLink.h */; };
+		D5610F5A1AFE72C0009BB4EC /* WPAPIResponseLink.m in Sources */ = {isa = PBXBuildFile; fileRef = D5610F581AFE72C0009BB4EC /* WPAPIResponseLink.m */; };
+		D5610F5C1AFE7348009BB4EC /* WPAPIResponseLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5610F5B1AFE7348009BB4EC /* WPAPIResponseLinkTests.m */; };
+		D5610F5F1AFE7B29009BB4EC /* WPAPIFetchResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D5610F5D1AFE7B29009BB4EC /* WPAPIFetchResponse.h */; };
+		D5610F601AFE7B29009BB4EC /* WPAPIFetchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D5610F5E1AFE7B29009BB4EC /* WPAPIFetchResponse.m */; };
+		D5610F621AFF2B80009BB4EC /* posts-page2.json in Resources */ = {isa = PBXBuildFile; fileRef = D5610F611AFF2B80009BB4EC /* posts-page2.json */; };
+		D5610F641AFF2BB4009BB4EC /* posts-page3.json in Resources */ = {isa = PBXBuildFile; fileRef = D5610F631AFF2BB4009BB4EC /* posts-page3.json */; };
+		D5610F661AFF2BD5009BB4EC /* posts-page4.json in Resources */ = {isa = PBXBuildFile; fileRef = D5610F651AFF2BD5009BB4EC /* posts-page4.json */; };
+		D5610F681AFF2BF6009BB4EC /* posts-page5.json in Resources */ = {isa = PBXBuildFile; fileRef = D5610F671AFF2BF6009BB4EC /* posts-page5.json */; };
+		D5610F6A1AFF2C16009BB4EC /* posts-page6.json in Resources */ = {isa = PBXBuildFile; fileRef = D5610F691AFF2C16009BB4EC /* posts-page6.json */; };
+		D5610F6C1AFF2C38009BB4EC /* posts-page7.json in Resources */ = {isa = PBXBuildFile; fileRef = D5610F6B1AFF2C38009BB4EC /* posts-page7.json */; };
+		D5610F6E1AFF2C59009BB4EC /* posts-page8.json in Resources */ = {isa = PBXBuildFile; fileRef = D5610F6D1AFF2C59009BB4EC /* posts-page8.json */; };
+		D5610F701AFF2C8B009BB4EC /* posts-page9.json in Resources */ = {isa = PBXBuildFile; fileRef = D5610F6F1AFF2C8B009BB4EC /* posts-page9.json */; };
+		D5610F731AFF2D08009BB4EC /* ResponseHeaders.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5610F721AFF2D08009BB4EC /* ResponseHeaders.plist */; };
+		D5610F761AFF2E85009BB4EC /* WPAPIFetcherMock.m in Sources */ = {isa = PBXBuildFile; fileRef = D5610F751AFF2E85009BB4EC /* WPAPIFetcherMock.m */; };
 		D570F8251AF9D2170005AB27 /* WP_API.h in Headers */ = {isa = PBXBuildFile; fileRef = D570F8241AF9D2170005AB27 /* WP_API.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D570F82B1AF9D2170005AB27 /* WP_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D570F81F1AF9D2170005AB27 /* WP_API.framework */; };
 		D570F8321AF9D2170005AB27 /* WP_APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D570F8311AF9D2170005AB27 /* WP_APITests.m */; };
@@ -28,7 +49,7 @@
 		D5C1027C1AF9DA5D00D2B657 /* WPAPIMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C1027A1AF9DA5D00D2B657 /* WPAPIMeta.m */; };
 		D5C1027F1AF9DA7500D2B657 /* WPAPILinks.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C1027D1AF9DA7500D2B657 /* WPAPILinks.h */; };
 		D5C102801AF9DA7500D2B657 /* WPAPILinks.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C1027E1AF9DA7500D2B657 /* WPAPILinks.m */; };
-		D5C102811AF9E0F200D2B657 /* posts.json in Resources */ = {isa = PBXBuildFile; fileRef = D5C102631AF9D72800D2B657 /* posts.json */; };
+		D5C102811AF9E0F200D2B657 /* posts-page1.json in Resources */ = {isa = PBXBuildFile; fileRef = D5C102631AF9D72800D2B657 /* posts-page1.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +67,35 @@
 		D509D7A31AFB2B1100D214E6 /* WPAPIACFAGalleryImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIACFAGalleryImage.m; sourceTree = "<group>"; };
 		D509D7A61AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAPIACFAGalleryImageSizes.h; sourceTree = "<group>"; };
 		D509D7A71AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIACFAGalleryImageSizes.m; sourceTree = "<group>"; };
+		D5610F4B1AFE5E0D009BB4EC /* WPAPIFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAPIFetcher.h; sourceTree = "<group>"; };
+		D5610F4C1AFE5E0D009BB4EC /* WPAPIFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIFetcher.m; sourceTree = "<group>"; };
+		D5610F4F1AFE5F2E009BB4EC /* WPAPIFetchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIFetchTests.m; sourceTree = "<group>"; };
+		D5610F511AFE650D009BB4EC /* WPAPIUseCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAPIUseCase.h; sourceTree = "<group>"; };
+		D5610F521AFE650D009BB4EC /* WPAPIUseCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIUseCase.m; sourceTree = "<group>"; };
+		D5610F551AFE6A19009BB4EC /* WPAPIUseCaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIUseCaseTests.m; sourceTree = "<group>"; };
+		D5610F571AFE72C0009BB4EC /* WPAPIResponseLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAPIResponseLink.h; sourceTree = "<group>"; };
+		D5610F581AFE72C0009BB4EC /* WPAPIResponseLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIResponseLink.m; sourceTree = "<group>"; };
+		D5610F5B1AFE7348009BB4EC /* WPAPIResponseLinkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIResponseLinkTests.m; sourceTree = "<group>"; };
+		D5610F5D1AFE7B29009BB4EC /* WPAPIFetchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAPIFetchResponse.h; sourceTree = "<group>"; };
+		D5610F5E1AFE7B29009BB4EC /* WPAPIFetchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIFetchResponse.m; sourceTree = "<group>"; };
+		D5610F611AFF2B80009BB4EC /* posts-page2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "posts-page2.json"; sourceTree = "<group>"; };
+		D5610F631AFF2BB4009BB4EC /* posts-page3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "posts-page3.json"; sourceTree = "<group>"; };
+		D5610F651AFF2BD5009BB4EC /* posts-page4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "posts-page4.json"; sourceTree = "<group>"; };
+		D5610F671AFF2BF6009BB4EC /* posts-page5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "posts-page5.json"; sourceTree = "<group>"; };
+		D5610F691AFF2C16009BB4EC /* posts-page6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "posts-page6.json"; sourceTree = "<group>"; };
+		D5610F6B1AFF2C38009BB4EC /* posts-page7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "posts-page7.json"; sourceTree = "<group>"; };
+		D5610F6D1AFF2C59009BB4EC /* posts-page8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "posts-page8.json"; sourceTree = "<group>"; };
+		D5610F6F1AFF2C8B009BB4EC /* posts-page9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "posts-page9.json"; sourceTree = "<group>"; };
+		D5610F721AFF2D08009BB4EC /* ResponseHeaders.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ResponseHeaders.plist; sourceTree = "<group>"; };
+		D5610F741AFF2E85009BB4EC /* WPAPIFetcherMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAPIFetcherMock.h; sourceTree = "<group>"; };
+		D5610F751AFF2E85009BB4EC /* WPAPIFetcherMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIFetcherMock.m; sourceTree = "<group>"; };
 		D570F81F1AF9D2170005AB27 /* WP_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WP_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D570F8231AF9D2170005AB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D570F8241AF9D2170005AB27 /* WP_API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WP_API.h; sourceTree = "<group>"; };
 		D570F82A1AF9D2170005AB27 /* WP_APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WP_APITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D570F8301AF9D2170005AB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D570F8311AF9D2170005AB27 /* WP_APITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WP_APITests.m; sourceTree = "<group>"; };
-		D5C102631AF9D72800D2B657 /* posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = posts.json; sourceTree = "<group>"; };
+		D5C102631AF9D72800D2B657 /* posts-page1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "posts-page1.json"; sourceTree = "<group>"; };
 		D5C102651AF9D7A000D2B657 /* WPAPIElementBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAPIElementBuilder.h; sourceTree = "<group>"; };
 		D5C102661AF9D7A000D2B657 /* WPAPIElementBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAPIElementBuilder.m; sourceTree = "<group>"; };
 		D5C102691AF9D83300D2B657 /* WPAPIPostBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAPIPostBuilder.h; sourceTree = "<group>"; };
@@ -88,6 +131,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D5610F711AFF2CAB009BB4EC /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				D5C102631AF9D72800D2B657 /* posts-page1.json */,
+				D5610F611AFF2B80009BB4EC /* posts-page2.json */,
+				D5610F631AFF2BB4009BB4EC /* posts-page3.json */,
+				D5610F651AFF2BD5009BB4EC /* posts-page4.json */,
+				D5610F671AFF2BF6009BB4EC /* posts-page5.json */,
+				D5610F691AFF2C16009BB4EC /* posts-page6.json */,
+				D5610F6B1AFF2C38009BB4EC /* posts-page7.json */,
+				D5610F6D1AFF2C59009BB4EC /* posts-page8.json */,
+				D5610F6F1AFF2C8B009BB4EC /* posts-page9.json */,
+				D5610F721AFF2D08009BB4EC /* ResponseHeaders.plist */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
 		D570F8151AF9D2170005AB27 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				D570F8221AF9D2170005AB27 /* Supporting Files */,
+				D5610F4B1AFE5E0D009BB4EC /* WPAPIFetcher.h */,
+				D5610F4C1AFE5E0D009BB4EC /* WPAPIFetcher.m */,
 				D570F8241AF9D2170005AB27 /* WP_API.h */,
 				D5C102651AF9D7A000D2B657 /* WPAPIElementBuilder.h */,
 				D5C102661AF9D7A000D2B657 /* WPAPIElementBuilder.m */,
@@ -129,6 +191,12 @@
 				D509D7A31AFB2B1100D214E6 /* WPAPIACFAGalleryImage.m */,
 				D509D7A61AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.h */,
 				D509D7A71AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.m */,
+				D5610F511AFE650D009BB4EC /* WPAPIUseCase.h */,
+				D5610F521AFE650D009BB4EC /* WPAPIUseCase.m */,
+				D5610F571AFE72C0009BB4EC /* WPAPIResponseLink.h */,
+				D5610F581AFE72C0009BB4EC /* WPAPIResponseLink.m */,
+				D5610F5D1AFE7B29009BB4EC /* WPAPIFetchResponse.h */,
+				D5610F5E1AFE7B29009BB4EC /* WPAPIFetchResponse.m */,
 			);
 			path = "WP-API";
 			sourceTree = "<group>";
@@ -144,9 +212,14 @@
 		D570F82E1AF9D2170005AB27 /* WP-APITests */ = {
 			isa = PBXGroup;
 			children = (
+				D5610F5B1AFE7348009BB4EC /* WPAPIResponseLinkTests.m */,
+				D5610F551AFE6A19009BB4EC /* WPAPIUseCaseTests.m */,
+				D5610F4F1AFE5F2E009BB4EC /* WPAPIFetchTests.m */,
 				D570F8311AF9D2170005AB27 /* WP_APITests.m */,
+				D5610F741AFF2E85009BB4EC /* WPAPIFetcherMock.h */,
+				D5610F751AFF2E85009BB4EC /* WPAPIFetcherMock.m */,
 				D570F82F1AF9D2170005AB27 /* Supporting Files */,
-				D5C102631AF9D72800D2B657 /* posts.json */,
+				D5610F711AFF2CAB009BB4EC /* Fixtures */,
 			);
 			path = "WP-APITests";
 			sourceTree = "<group>";
@@ -166,6 +239,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5610F5F1AFE7B29009BB4EC /* WPAPIFetchResponse.h in Headers */,
 				D5C1026F1AF9D87100D2B657 /* WPAPIPost.h in Headers */,
 				D5C102731AF9D8F700D2B657 /* WPAPIAuthor.h in Headers */,
 				D5C1026B1AF9D83300D2B657 /* WPAPIPostBuilder.h in Headers */,
@@ -175,7 +249,10 @@
 				D5C102671AF9D7A000D2B657 /* WPAPIElementBuilder.h in Headers */,
 				D509D7A41AFB2B1100D214E6 /* WPAPIACFAGalleryImage.h in Headers */,
 				D5C102771AF9D91A00D2B657 /* WPAPIAuthorBuilder.h in Headers */,
+				D5610F4D1AFE5E0D009BB4EC /* WPAPIFetcher.h in Headers */,
+				D5610F531AFE650D009BB4EC /* WPAPIUseCase.h in Headers */,
 				D509D7A81AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.h in Headers */,
+				D5610F591AFE72C0009BB4EC /* WPAPIResponseLink.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +342,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C102811AF9E0F200D2B657 /* posts.json in Resources */,
+				D5610F731AFF2D08009BB4EC /* ResponseHeaders.plist in Resources */,
+				D5C102811AF9E0F200D2B657 /* posts-page1.json in Resources */,
+				D5610F6A1AFF2C16009BB4EC /* posts-page6.json in Resources */,
+				D5610F641AFF2BB4009BB4EC /* posts-page3.json in Resources */,
+				D5610F6E1AFF2C59009BB4EC /* posts-page8.json in Resources */,
+				D5610F621AFF2B80009BB4EC /* posts-page2.json in Resources */,
+				D5610F661AFF2BD5009BB4EC /* posts-page4.json in Resources */,
+				D5610F681AFF2BF6009BB4EC /* posts-page5.json in Resources */,
+				D5610F701AFF2C8B009BB4EC /* posts-page9.json in Resources */,
+				D5610F6C1AFF2C38009BB4EC /* posts-page7.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +362,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5610F5A1AFE72C0009BB4EC /* WPAPIResponseLink.m in Sources */,
 				D5C1027C1AF9DA5D00D2B657 /* WPAPIMeta.m in Sources */,
+				D5610F601AFE7B29009BB4EC /* WPAPIFetchResponse.m in Sources */,
 				D5C102741AF9D8F700D2B657 /* WPAPIAuthor.m in Sources */,
+				D5610F541AFE650D009BB4EC /* WPAPIUseCase.m in Sources */,
 				D5C102701AF9D87100D2B657 /* WPAPIPost.m in Sources */,
 				D5C102681AF9D7A000D2B657 /* WPAPIElementBuilder.m in Sources */,
+				D5610F4E1AFE5E0D009BB4EC /* WPAPIFetcher.m in Sources */,
 				D5C1026C1AF9D83300D2B657 /* WPAPIPostBuilder.m in Sources */,
 				D509D7A91AFB2B6900D214E6 /* WPAPIACFAGalleryImageSizes.m in Sources */,
 				D5C102781AF9D91A00D2B657 /* WPAPIAuthorBuilder.m in Sources */,
@@ -292,6 +382,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5610F761AFF2E85009BB4EC /* WPAPIFetcherMock.m in Sources */,
+				D5610F5C1AFE7348009BB4EC /* WPAPIResponseLinkTests.m in Sources */,
+				D5610F561AFE6A19009BB4EC /* WPAPIUseCaseTests.m in Sources */,
+				D5610F501AFE5F2E009BB4EC /* WPAPIFetchTests.m in Sources */,
 				D570F8321AF9D2170005AB27 /* WP_APITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
