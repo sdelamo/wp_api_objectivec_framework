@@ -21,39 +21,39 @@
     NSString *objectNotation;
     NSDictionary *headers;
     if([[baseUrl absoluteString] isEqualToString:@"http://appfadeta.com/wp-json/posts?type=alojamiento"]) {
-        objectNotation = [self contentOfJSONFile:@"posts-page1"];
+        objectNotation = [WPAPIFetcherMock contentOfJSONFile:@"posts-page1"];
         headers = [self headersAtIndex:0];
         
     } else if([[baseUrl absoluteString] isEqualToString:@"http://appfadeta.com/wp-json/posts?type=alojamiento&page=2"]) {
-        objectNotation = [self contentOfJSONFile:@"posts-page2"];
+        objectNotation = [WPAPIFetcherMock contentOfJSONFile:@"posts-page2"];
         headers = [self headersAtIndex:1];
         
     } else if([[baseUrl absoluteString] isEqualToString:@"http://appfadeta.com/wp-json/posts?type=alojamiento&page=3"]) {
-        objectNotation = [self contentOfJSONFile:@"posts-page3"];
+        objectNotation = [WPAPIFetcherMock contentOfJSONFile:@"posts-page3"];
         headers = [self headersAtIndex:2];
         
     } else if([[baseUrl absoluteString] isEqualToString:@"http://appfadeta.com/wp-json/posts?type=alojamiento&page=4"]) {
-        objectNotation = [self contentOfJSONFile:@"posts-page4"];
+        objectNotation = [WPAPIFetcherMock contentOfJSONFile:@"posts-page4"];
         headers = [self headersAtIndex:3];
         
     } else if([[baseUrl absoluteString] isEqualToString:@"http://appfadeta.com/wp-json/posts?type=alojamiento&page=5"]) {
-        objectNotation = [self contentOfJSONFile:@"posts-page5"];
+        objectNotation = [WPAPIFetcherMock contentOfJSONFile:@"posts-page5"];
         headers = [self headersAtIndex:4];
         
     } else if([[baseUrl absoluteString] isEqualToString:@"http://appfadeta.com/wp-json/posts?type=alojamiento&page=6"]) {
-        objectNotation = [self contentOfJSONFile:@"posts-page6"];
+        objectNotation = [WPAPIFetcherMock contentOfJSONFile:@"posts-page6"];
         headers = [self headersAtIndex:5];
         
     } else if([[baseUrl absoluteString] isEqualToString:@"http://appfadeta.com/wp-json/posts?type=alojamiento&page=7"]) {
-        objectNotation = [self contentOfJSONFile:@"posts-page7"];
+        objectNotation = [WPAPIFetcherMock contentOfJSONFile:@"posts-page7"];
         headers = [self headersAtIndex:6];
         
     } else if([[baseUrl absoluteString] isEqualToString:@"http://appfadeta.com/wp-json/posts?type=alojamiento&page=8"]) {
-        objectNotation = [self contentOfJSONFile:@"posts-page8"];
+        objectNotation = [WPAPIFetcherMock contentOfJSONFile:@"posts-page8"];
         headers = [self headersAtIndex:7];
         
     } else if([[baseUrl absoluteString] isEqualToString:@"http://appfadeta.com/wp-json/posts?type=alojamiento&page=9"]) {
-        objectNotation = [self contentOfJSONFile:@"posts-page9"];
+        objectNotation = [WPAPIFetcherMock contentOfJSONFile:@"posts-page9"];
         headers = [self headersAtIndex:8];
         
     }
@@ -74,7 +74,7 @@
 }
 
 
-- (NSString *)contentOfJSONFile:(NSString *)filename {
++ (NSString *)contentOfJSONFile:(NSString *)filename {
     
     NSString *contentPath = [[NSBundle bundleForClass:[self class]] pathForResource:filename
                                                                              ofType:@"json"];

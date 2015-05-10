@@ -12,6 +12,7 @@
 #import "WPAPIPost.h"
 #import "WPAPIACFAGalleryImage.h"
 #import "WPAPIACFAGalleryImageSizes.h"
+#import "WPAPIFetcherMock.h"
 
 @interface WPAPITests : XCTestCase
 
@@ -33,10 +34,8 @@
 }
 
 - (void)testPostsFromJSON {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
     
-    NSString* jsonStr = [self contentOfJSONFile:@"posts"];
+    NSString* jsonStr = [WPAPIFetcherMock contentOfJSONFile:@"posts-page1"];
     
     typedef id (^CustomBuilderBlock)(NSDictionary *dict);
     CustomBuilderBlock block = ^id(NSDictionary *dict) {
@@ -138,18 +137,6 @@
     
     NSArray *gallery = customDict[@"gallery"];
     XCTAssertEqual([gallery count], 9);
-}
-
-
-
-- (NSString *)contentOfJSONFile:(NSString *)filename {
-    
-    NSString *contentPath = [[NSBundle bundleForClass:[self class]] pathForResource:filename
-                                                                             ofType:@"json"];
-    NSURL *contentURL = [NSURL fileURLWithPath:contentPath];
-    return [NSString stringWithContentsOfURL:contentURL
-                                    encoding:NSUTF8StringEncoding
-                                       error:nil];
 }
 
 

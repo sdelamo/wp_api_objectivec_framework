@@ -10,4 +10,6 @@
 
 @interface WPAPIFetcherMock : WPAPIFetcher
 
++ (NSString *)contentOfJSONFile:(NSString *)filename;
+
 @end
